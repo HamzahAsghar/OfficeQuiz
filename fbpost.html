@@ -1,0 +1,123 @@
+
+<html>
+  <head>
+      <link  href="FBPost.css" rel="stylesheet" type="text/css" >
+  </head>
+  <title>
+      facebook post
+  </title>
+  <body>
+    
+    <div class="main"  >
+       <img  class = "headerImg"  src="imgs/chris-leggat-JAkWUtmsFXM-unsplash.JPG"  > 
+       <h4 class="name"> Hamzah Asghar Farooqi</h4>
+         
+    <div class="description">
+      <p>
+          I have such bad memories, sitting in the back of a classroom, being told, you know, everybody is going to read a paragraph, and skipping ahead to my paragraph and being mortified and trying to read it enough times so that I wouldn't stutter and stammer, getting called on, even in high school
+      </p>
+      <img src="imgs/chris-leggat-JAkWUtmsFXM-unsplash.JPG"><br> 
+    </div>
+    <div class="Likecount">
+          Like  
+          Comment     
+    </div>
+          <!-- /////////////////////////////////////////////////////// -->
+    <div class="button">
+          <!-- <p id="demo"></p> -->
+          <!-- 
+          Like Button
+          - When the button is clicked for the first time, the text color changes to blue
+          - Whenver the button is clicked, the count of the likes is incremented
+           -->
+          <!-- <button id="like-btn" onclick="likeBtnAction()">Like</button> -->
+      <input type="button" id ="like-btn" value="Like"  onclick="likeBtnAction()" /> 
+        
+    <script>
+        let likesCount = 0;
+          // const likeButton = document.getElementById('like');
+        const updateOutput = function() {
+        demo.innerHTML = ` ${increment}    `;
+        }
+            
+            // Liking.addEventListener("click", function(e){
+            //     increment++;
+            //     updateOutput();
+            // });
+
+      function likeBtnAction(e) {
+        var likeBtn = document.getElementById("like-btn");
+        likeBtn.classList.add('like-btn-active')
+
+        likesCount++;
+        // Like (10)
+        likeBtn.value ="Like"+" "+likesCount;
+        // likeBtn.classList.toggle("button1");
+        }
+  
+    </script>
+        <!-- /////////////////////////////////////////////////////// -->
+  
+        <input type="button" class="button2" id="Comment" value="Comment">
+
+        <input type="button" class="button3" id="ShareBtn" value="Share">
+    <script>
+        document.getElementById("ShareBtn").addEventListener("click", function() {
+        alert("The post has been shared on your timeline");
+             });
+    </script>
+    </div>
+        <!-- <img src="download.JPG" class="commentImage"> -->
+        <p id="demo2"> </p> 
+      
+        <input type="text" id="CommentArea" name="CommentArea"  placeholder="Write a comment.."  >
+        <div class = "forComment">
+        <input type="button" id="forComment"   name="forComment" value="Comment" onclick="myFunction()"  >
+        
+    </div>
+       
+    <script>
+        var x = document.getElementById("forComment") ;
+        // x.addEventListener(myFunction );
+        function myFunction() { 
+        var y = document.createElement("IMG");
+        y.setAttribute("src", "imgs/download.jpg");
+        y.setAttribute("class", "commentImage");
+        document.getElementById("demo2").appendChild(y);        
+        var x = document.getElementById("CommentArea").value;
+        document.getElementById("demo2").innerHTML +="  "+ x +"<br>";     
+          }
+          
+    </script>
+
+    <script type="text/javascript">
+      let posts =`[{
+		"id": "1",
+		"content": "This is my first post.",
+		"date_posted": "Sept 23, 2020",
+		"author": {
+			"name": "MAXICO",
+			"image_src": "imgs/Lightning-New-Mexico-by-Laurence-Norah.jpg"
+		}
+	}, {
+		"id": "2",
+		"content": "This is my second post.",
+		"date_posted": "Sept 24, 2020",
+		"author": {
+			"name": "NEWZELAND",
+			"image_src": "imgs/Moeraki-Boulders-New-Zealand.jpg"
+		}
+	}, {
+		"id": "3",
+		"content": "This is my third post.",
+		"date_posted": "Sept 25, 2020",
+		"author": {
+			"name": "Hamza Asghar Farooqi",
+			"image_src": "imgs/0ac2b6a46e03e8488f9fb8a818f77f00754b886c.png"
+		}
+	}]`
+    var posts = JSON.parse(posts);
+    </script>
+    </div>
+  </body>
+</html>

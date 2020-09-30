@@ -1,0 +1,30 @@
+
+{
+	"posts": [{
+		"id": "1",
+		"content": "This is my first post.",
+		"date_posted": "Sept 23, 2020",
+		"author": {
+			"name": "MAXICO",
+			"image_src": "imgs/Lightning-New-Mexico-by-Laurence-Norah.jpg"
+		}
+	}, {
+		"id": "2",
+		"content": "This is my second post.",
+		"date_posted": "Sept 24, 2020",
+		"author": {
+			"name": "NEWZELAND",
+			"image_src": "imgs/Moeraki-Boulders-New-Zealand.jpg"
+		}
+	}, {
+		"id": "3",
+		"content": "This is my third post.",
+		"date_posted": "Sept 25, 2020",
+		"author": {
+			"name": "Hamza Asghar Farooqi",
+			"image_src": "imgs/0ac2b6a46e03e8488f9fb8a818f77f00754b886c.png"
+		}
+	}]
+	
+} 
+ 

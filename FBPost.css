@@ -1,0 +1,174 @@
+body{
+    background-color:#e6e6ff;
+    
+  }
+  .main{
+     background-color:white; 
+      margin: auto;
+   width: 35%;
+   border: 1px ridge #f2f2f2;
+   
+  }
+  .headerImg{ 
+    height: 5%;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    align-content: right;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-inline-start: 1%;
+    
+
+  }
+  img {
+      
+      display: inline-block;
+     margin-left: auto;
+   margin-right: auto;
+     height:320px;
+   width: 100%;
+   border-radius: 8px;
+   
+ }
+
+ p{
+    margin-left: 5%;
+    margin-right: auto;
+     width: 90%;
+     text-align: justify;
+     
+ }
+ .commentImage{
+   display:  inline-block;
+     margin-left: auto;
+   margin-right: auto;
+   height:20px;
+   width: 5%;
+   border-radius: 100px;
+    
+ }
+ input[type=text]  { 
+   background-color:#f2f2f2;
+     width: 85%;
+     align-content: center;
+     border-radius: 30px;
+     padding: 8px 10px;
+     margin: 2px 40px ;
+     display:inline-block;
+     border: 1px solid #bfbfbf;
+   }
+ .description {
+   margin: auto;
+   width: 100%;
+   border: 1px ridge #f2f2f2;
+   
+    
+ }
+ .Likecount {
+   color:gray;
+   background-color: white;
+   width: 100%;
+   border:1px ridge #f2f2f2;
+   padding: 1px 0px;
+   display: block;
+   margin: auto;
+   display: inline-block;
+   width: 32%;
+   
+ }
+ .button {
+   background-color: white;
+   color: gray;
+   padding: 10px;
+   border:   gray;
+   margin:auto ;
+   display: inline-block;
+   font-size: 12px;
+   cursor: pointer;
+    width: 95%;
+  
+  }
+  
+ .button:hover {
+   background-color: #f2f2f2;
+   color: gray;
+   
+ }
+ 
+ /*<!--.disComment {
+   width: 100px;
+   height: 50px;
+   border: 1px solid gray;
+ 
+   margin: auto;
+   padding-left: 20%;
+ }*/
+ /*.comment {
+     background-color:white;
+   margin: auto;
+   width: 100%;
+   border:1px ridge #f2f2f2;
+       
+ } */
+   
+  
+ 
+ input[type=button]{
+    width: 32%;
+   padding: 10px;
+   border:1px   white;
+   font-size: 12px;
+   cursor: pointer;
+   display: inline-block;
+    
+   }
+   .forComment{
+     width: 500px;
+     padding: 10px;
+     border:1px   white;
+     font-size: 12px;
+     cursor: pointer;
+     display: inline-block;
+     align-content: center;
+   }
+ 
+  
+ /* .button1 {
+   width: 32%;
+   padding: 10px;
+   border:1px   white;
+   color: blue;
+   font-size: 12px;
+   cursor: pointer;
+   display: inline-block;
+ } */
+ 
+ .like-btn-active {
+   color: blue;
+ }
+ 
+ .button2 {
+   width: 32%;
+   padding: 5px;
+   border:1px   white;
+   font-size: 12px;
+   cursor: pointer;
+   display: inline-block;
+ }
+ .button3 {
+   width: 32%;
+   padding: 5px;
+   border:1px   white;
+   font-size: 12px;
+   cursor: pointer;
+   display: inline-block;
+ }
+ 
+  
